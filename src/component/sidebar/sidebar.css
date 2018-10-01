@@ -1,0 +1,42 @@
+.sidebar-container {
+    width: 20%;
+    height: 100vh;
+    background: var(--main_color);
+    display: flex;
+    align-items: center;
+}
+.circle-image-container {
+    position: fixed;
+    width: 17rem;
+    height: 17rem;
+    left: 12%;
+    border-radius: 50%;
+    background: white;
+    overflow: hidden;
+}
+.circle-image-container img {
+    position: absolute;
+    width: 80%;
+    margin: 10%;
+}
+.menu-container li {
+    list-style-type: none;
+}
+.menu-container li a {
+    margin-left: 1rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Segoe UI";
+    font-size: 1.2rem;
+}
+.menu-container li span {
+    margin-right: 10px;
+}
+
+.menu-container .nav-link.active {
+    color: #EE6817;
+}
+
