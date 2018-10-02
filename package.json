@@ -1,7 +1,7 @@
 {
   "name": "my-resume",
   "version": "0.1.0",
-  "homepage": "http://tranminhtri28101996@gmail.com.github.io/minhtri-resume",
+  "homepage": "https://veloxrex.github.io/minhtri-resume",
   "private": true,
   "dependencies": {
     "@fullpage/react-fullpage": "^0.1.0",
